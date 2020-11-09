@@ -19,7 +19,7 @@ async def on_ready():
  \____|_____\___/  |_| |_____|_| \_|
 
 {Fore.RED} Здрасьте, это ГЛЮТЕН и
-{Fore.RED} Ебань с плясками начинается""")
+{Fore.RED} Полное адище начинается ;)""")
 
 @client.command()
 async def lol(ctx):
