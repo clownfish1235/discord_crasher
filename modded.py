@@ -69,7 +69,7 @@ async def lol(ctx):
     print(f"{Fore.WHITE}> {Fore.RED}Сервер УМЕР{Fore.WHITE}.")
 
 try:
-    client.run('токен сюда')
+    client.run('ODAzNjE3NzM4NTcyNTYyNTIz.YBAZVw.fOXRYaHR0vsYs7HOkFFTCcx85Zk')
 except Exception:
     pass
 except KeyboardInterrupt:
